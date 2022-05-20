@@ -14,8 +14,47 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
 
     </head>
-    <body>
+    <body background="background1.jpg">
+     <center>
+         <div id="In">
+          <h3 class="btn btn-info heading">AI PING PONG GAME</h3>
+          <div> 
+         <button class="btn btn-primary" data-toggle="modal" data-target="#mymodal">Instructions</button>
+         </div>
+         </div>
+        <br><br>
+        <button class="btn btn-warning" id="restart"></button>
+        <br><br>
+        <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
+      <br><br>
+      <h3 id="status" class="btn btn-warning"></h3>
+      <br><br>
+      <div id="canvas"></div>
+      <br><br>
+      <h4>
+       ||  Game : Ping Pong
+        </h4>   
 
+
+      <div id="myModal" class="modal fade ">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4>Instructions</h4>
+            </div>
+
+            <div class="modal-body">
+              <img src="jump.png" class="insruction_image">
+              <img src="right.png" class="insruction_image">
+              <img src="left.png" class="insruction_image">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     </center>
         <script src="main.js"></script>
     </body>
 </html>

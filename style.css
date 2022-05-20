@@ -1,4 +1,19 @@
 body
 {
+  
+}
 
+.heading
+{
+    width: 100%;
+    text-align: center;
+}
+
+.heading h3{
+    display:inline;
+}
+
+#In
+{
+    text-align: left;
 }
